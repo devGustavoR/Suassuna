@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+  background-color: #012D36;
+  font-family: 'Poppins', sans-serif;
+}
+
+.siga{
+  font-family: 'Dm Serif Display', sans-serif;
+  margin-right: 0.3rem;
+  font-size: .875rem;
+  color: #fff;
+}
+
+.rede-sociais{
+  display: flex;
+}
+
+.icon{
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin-right: 0.38rem;
+}
+
+.frist-nav, .content-frist{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #03758C;
+  width: 100%;
+}
+
+.content-frist{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.second-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012D36;
+  width: 100%;
+}
+
+.logo{
+  width: 13.5625rem;
+  height: 5.4375rem;
+}
+
+.content-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  width: 30rem;
+  height: 2.5625rem;
+  background-color: #03758C;
+  
+  border-radius: 1rem;
+}
+
+.lupa-icon{
+  width: 1.5625rem;
+  height: 1.5625rem;
+
+  margin-left: 1rem;
+}
+
+.user-icon{
+  width: 2.125rem;
+  height: 2.125rem;
+
+  margin-right: 1rem;
+}
+
+.hearth-icon{
+  width: 1.7962rem;
+  height: 1.5669rem;
+
+  margin-left: 1rem;
+}
+
+.sacola-icon{
+  width: 1.7962rem;
+  height: 1.5669rem;
+
+  margin-left: 0.5rem;
+}
+
+.loginandcadastro{
+  color: #fff;
+
+  font-family: 'Dm Serif Display', sans-serif;
+}
+
+.Cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 1rem;
+  float: right;
+}
+
+.Banner{
+  width: 100%;
+}
+
+.linha-1{
+  width: 100%;
+  height: 0.4rem;
+  background-color: #fff;
+}
+
+.titulo{
+  font-family: 'Dm Serif Display', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  font-size: 3.125rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+
+  color: #fff;
+}
