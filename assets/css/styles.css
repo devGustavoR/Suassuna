@@ -123,20 +123,32 @@ body{
 
   font-size: 3.125rem;
   margin-left: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 
   color: #fff;
 }
 
-.catologo{
+.catalogo, .catalogo2{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-top: 1.5rem;
+
+  overflow-x: scroll;
 }
+
+.catalogo::-webkit-scrollbar{
+  display: none;
+}
+
+
 
 .livro{
   margin-right: 3rem;
   margin-top: 1rem;
+
+  width: 15rem;
 }
 
 .content-livro{
@@ -144,12 +156,15 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin-left: 1rem;
 }
 
 .botton-comprar{
   margin-top: 1rem;
   color: #fff;
   text-decoration: none;
+  margin-right: 3rem;
 
   height: 1rem;
   padding: 1rem;
@@ -157,3 +172,39 @@ body{
   background-color: #CF5500;
 }
 
+.botton-comprar:hover{
+  transform: scale(1.1);
+}
+
+
+.catalogo-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10;
+}
+
+.backBtn, .nextBtn{
+  width: 3.125rem;
+  height: 5rem;
+  cursor: pointer
+
+
+}
+
+.backBtn{
+  rotate: 180deg;
+}
+
+footer{
+  background-color: #03758C;
+  width: 100%;
+  height: 55vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-footer{
+  margin-left: 2rem;
+}
