@@ -127,3 +127,33 @@ body{
 
   color: #fff;
 }
+
+.catologo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.livro{
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.content-livro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botton-comprar{
+  margin-top: 1rem;
+  color: #fff;
+  text-decoration: none;
+
+  height: 1rem;
+  padding: 1rem;
+  border-radius: .9375rem;
+  background-color: #CF5500;
+}
+
