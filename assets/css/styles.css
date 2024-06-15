@@ -206,5 +206,62 @@ footer{
 }
 
 .logo-footer{
-  margin-left: 2rem;
+  margin-left: 13rem;
+}
+
+.contentFooter{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap:40rem;
+  color: #fff;
+}
+
+.servicos{
+  display: flex;
+  flex-direction: column;
+  
+}
+.servicos h1, .faleConosco h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem; 
+}
+
+.servicos a{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.faleConosco{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.telefone, .email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone, .e-mail{
+  width: 2.4375rem;
+  height: 2.4375rem;
+}
+
+.redesSociais2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.icon-RS{
+  padding: 1.2rem;
 }
